@@ -2,7 +2,7 @@
     "build-runtime": true,
     "id": "org.kde.Sdk",
     "id-platform": "org.kde.Platform",
-    "branch": "5.11",
+    "branch": "5.11ibusportal",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
     "runtime-version": "1.6",
@@ -164,6 +164,10 @@
                 {
                     "type": "patch",
                     "path": "patch/qtbase-filechooser-dialog-dont-crash-when-using-native-dialog.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "patch/0001-IBus-Support-the-portal-needed-for-Flatpak-environme.patch"
                 },
                 {
                     "type": "script",
